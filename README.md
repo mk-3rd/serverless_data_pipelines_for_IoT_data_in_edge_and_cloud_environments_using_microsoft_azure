@@ -1,1 +1,3 @@
-# serverless_data_pipelines_for_IoT_data_in_edge_and_cloud_environments_using_microsoft_azure
+# Serverless Data Pipelines for IoT Data in Edge and Cloud Environments using Microsoft Azure
+This repository contains code and files related to the bachelor thesis.
+Author: Martin Kisand, supervisor: Shivananda. R. Poojara 
