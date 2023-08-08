@@ -1,0 +1,366 @@
+PLAN 1, FREQ 1 sek, 500kb file
+
+2023-07-18 14:07:31.194
+ Success
+0
+3705
+56c69453498060213cd7d807b91be228
+2023-07-18 14:07:30.906
+ Success
+0
+4021
+942bd64f7a9c8db1842ee6f37e39d29a
+2023-07-18 14:07:30.751
+ Success
+0
+4096
+2e6444a1bfbcba2e45a018d6a271bfbe
+2023-07-18 14:07:30.636
+ Success
+0
+4032
+c4f3bbbd86c65f4528f1f1f791bc7452
+2023-07-18 14:07:24.344
+ Success
+0
+2189
+148dd61a61a7d9e5bd63c485535683a5
+2023-07-18 14:07:23.700
+ Success
+0
+2802
+9fd8fe86afe8fcd0f7356062b108a3a1
+2023-07-18 14:07:23.694
+ Success
+0
+2693
+a28cf489966a961a0cd0c76bb58d07ae
+2023-07-18 14:07:20.393
+ Success
+0
+3575
+f8fdccb9a5886220f1a82bc29e3aba16
+2023-07-18 14:07:20.329
+ Error
+0
+3783
+d84b6ba47c6201c11f85b75e3696fd4d
+2023-07-18 14:07:20.233
+ Success
+0
+3424
+666e0ba78d21484b01c3f12bf2888871
+2023-07-18 14:07:20.178
+ Success
+0
+3491
+1560d7d7003704f845a1fc06119fe648
+
+
+
+
+
+
+1. 3491 ms 2023-07-18 14:07:20.178
+
+2023-07-18 14:07:20.234
+Executing 'Functions.AeneasFunction' (Reason='New blob detected(LogsAndContainerScan): decompressedfilecontainer/2761c196-ec94-48ea-ada9-244b33d37424.mp3', Id=8e994e6a-7b2e-46d8-9b4d-c2a54d4dbf78)
+Information
+2023-07-18 14:07:20.237
+Trigger Details: MessageId: b3d08604-9367-428c-83d2-c4fa00d3b15e, DequeueCount: 1, InsertedOn: 2023-07-18T14:07:20.000+00:00, BlobCreated: 2023-07-18T14:07:18.000+00:00, BlobLastModified: 2023-07-18T14:07:18.000+00:00
+Information
+2023-07-18 14:07:20.271
+FUNC START: 2023-07-18 14:07:20.251956 Python blob trigger function processed blob Name: decompressedfilecontainer/2761c196-ec94-48ea-ada9-244b33d37424.mp3 Blob Size: None bytes
+Information
+2023-07-18 14:07:20.320
+Request URL: 'https://aeneasstorage.blob.core.windows.net/textfilecontainer/p001.xhtml' Request method: 'GET' Request headers: 'x-ms-range': 'REDACTED' 'x-ms-version': 'REDACTED' 'Accept': 'application/xml' 'User-Agent': 'azsdk-python-storage-blob/12.17.0 Python/3.9.17 (Linux-5.10.177.1-1.cm1-x86_64-with-glibc2.31)' 'x-ms-date': 'REDACTED' 'x-ms-client-request-id': '68ff5a40-2574-11ee-b775-462c726917cc' 'Authorization': 'REDACTED' No body was attached to the request
+Information
+2023-07-18 14:07:20.517
+Response status: 206 Response headers: 'Content-Length': '1584' 'Content-Type': 'application/xhtml+xml' 'Content-Range': 'REDACTED' 'Last-Modified': 'Fri, 16 Dec 2022 20:08:51 GMT' 'Accept-Ranges': 'REDACTED' 'ETag': '"0x8DADFA159AA2138"' 'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0' 'x-ms-request-id': 'c0358393-f01e-003d-2081-b955bd000000' 'x-ms-client-request-id': '68ff5a40-2574-11ee-b775-462c726917cc' 'x-ms-version': 'REDACTED' 'x-ms-creation-time': 'REDACTED' 'x-ms-blob-content-md5': 'REDACTED' 'x-ms-lease-status': 'REDACTED' 'x-ms-lease-state': 'REDACTED' 'x-ms-blob-type': 'REDACTED' 'x-ms-server-encrypted': 'REDACTED' 'Date': 'Tue, 18 Jul 2023 14:07:20 GMT'
+Information
+2023-07-18 14:07:23.547
+SYNCMAP CREATED: 2023-07-18 14:07:23.532245
+Information
+2023-07-18 14:07:23.583
+UPLOAD COMPLETED: 2023-07-18 14:07:23.533209
+Information
+2023-07-18 14:07:23.667
+Executed 'Functions.AeneasFunction' (Succeeded, Id=8e994e6a-7b2e-46d8-9b4d-c2a54d4dbf78, Duration=3489ms)
+Information
+
+2. 3424 ms 2023-07-18 14:07:20.233
+
+2023-07-18 14:07:20.270
+Executing 'Functions.AeneasFunction' (Reason='New blob detected(LogsAndContainerScan): decompressedfilecontainer/73ebd1f3-28f2-4d3e-8b86-2807ebf3de6b.mp3', Id=ae43ae68-8c38-47df-bbf5-3a11bebc5969)
+Information
+2023-07-18 14:07:20.271
+Trigger Details: MessageId: fa185a7f-fdf9-4568-85c5-cee318f14e2c, DequeueCount: 1, InsertedOn: 2023-07-18T14:07:20.000+00:00, BlobCreated: 2023-07-18T14:07:18.000+00:00, BlobLastModified: 2023-07-18T14:07:18.000+00:00
+Information
+2023-07-18 14:07:20.298
+FUNC START: 2023-07-18 14:07:20.289573 Python blob trigger function processed blob Name: decompressedfilecontainer/73ebd1f3-28f2-4d3e-8b86-2807ebf3de6b.mp3 Blob Size: None bytes
+Information
+2023-07-18 14:07:20.336
+Request URL: 'https://aeneasstorage.blob.core.windows.net/textfilecontainer/p001.xhtml' Request method: 'GET' Request headers: 'x-ms-range': 'REDACTED' 'x-ms-version': 'REDACTED' 'Accept': 'application/xml' 'User-Agent': 'azsdk-python-storage-blob/12.17.0 Python/3.9.17 (Linux-5.10.177.1-1.cm1-x86_64-with-glibc2.31)' 'x-ms-date': 'REDACTED' 'x-ms-client-request-id': '6900edb0-2574-11ee-918a-462c726917cc' 'Authorization': 'REDACTED' No body was attached to the request
+Information
+2023-07-18 14:07:20.550
+Response status: 206 Response headers: 'Content-Length': '1584' 'Content-Type': 'application/xhtml+xml' 'Content-Range': 'REDACTED' 'Last-Modified': 'Fri, 16 Dec 2022 20:08:51 GMT' 'Accept-Ranges': 'REDACTED' 'ETag': '"0x8DADFA159AA2138"' 'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0' 'x-ms-request-id': '6849671a-401e-005a-5081-b94541000000' 'x-ms-client-request-id': '6900edb0-2574-11ee-918a-462c726917cc' 'x-ms-version': 'REDACTED' 'x-ms-creation-time': 'REDACTED' 'x-ms-blob-content-md5': 'REDACTED' 'x-ms-lease-status': 'REDACTED' 'x-ms-lease-state': 'REDACTED' 'x-ms-blob-type': 'REDACTED' 'x-ms-server-encrypted': 'REDACTED' 'Date': 'Tue, 18 Jul 2023 14:07:20 GMT'
+Information
+2023-07-18 14:07:23.594
+SYNCMAP CREATED: 2023-07-18 14:07:23.578677
+Information
+2023-07-18 14:07:23.596
+UPLOAD COMPLETED: 2023-07-18 14:07:23.579028
+Information
+2023-07-18 14:07:23.655
+Executed 'Functions.AeneasFunction' (Succeeded, Id=ae43ae68-8c38-47df-bbf5-3a11bebc5969, Duration=3421ms)
+Information
+
+3. 3783ms 2023-07-18 14:07:20.329
+
+2023-07-18 14:07:20.367
+Executing 'Functions.AeneasFunction' (Reason='New blob detected(LogsAndContainerScan): decompressedfilecontainer/8ce8c696-0998-4653-abe6-34bb5ac36723.mp3', Id=83b6528f-4610-46ed-a3f3-60ad34386a87)
+Information
+2023-07-18 14:07:20.371
+Trigger Details: MessageId: 3cbbafb1-d28e-4408-9fcf-3aa69fe4c454, DequeueCount: 1, InsertedOn: 2023-07-18T14:07:20.000+00:00, BlobCreated: 2023-07-18T14:07:18.000+00:00, BlobLastModified: 2023-07-18T14:07:18.000+00:00
+Information
+2023-07-18 14:07:20.448
+FUNC START: 2023-07-18 14:07:20.447022 Python blob trigger function processed blob Name: decompressedfilecontainer/8ce8c696-0998-4653-abe6-34bb5ac36723.mp3 Blob Size: None bytes
+Information
+2023-07-18 14:07:20.482
+Request URL: 'https://aeneasstorage.blob.core.windows.net/textfilecontainer/p001.xhtml' Request method: 'GET' Request headers: 'x-ms-range': 'REDACTED' 'x-ms-version': 'REDACTED' 'Accept': 'application/xml' 'User-Agent': 'azsdk-python-storage-blob/12.17.0 Python/3.9.17 (Linux-5.10.177.1-1.cm1-x86_64-with-glibc2.31)' 'x-ms-date': 'REDACTED' 'x-ms-client-request-id': '691861ca-2574-11ee-8dc3-462c726917cc' 'Authorization': 'REDACTED' No body was attached to the request
+Information
+2023-07-18 14:07:20.713
+Response status: 206 Response headers: 'Content-Length': '1584' 'Content-Type': 'application/xhtml+xml' 'Content-Range': 'REDACTED' 'Last-Modified': 'Fri, 16 Dec 2022 20:08:51 GMT' 'Accept-Ranges': 'REDACTED' 'ETag': '"0x8DADFA159AA2138"' 'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0' 'x-ms-request-id': '29dbb332-401e-0065-1181-b98de2000000' 'x-ms-client-request-id': '691861ca-2574-11ee-8dc3-462c726917cc' 'x-ms-version': 'REDACTED' 'x-ms-creation-time': 'REDACTED' 'x-ms-blob-content-md5': 'REDACTED' 'x-ms-lease-status': 'REDACTED' 'x-ms-lease-state': 'REDACTED' 'x-ms-blob-type': 'REDACTED' 'x-ms-server-encrypted': 'REDACTED' 'Date': 'Tue, 18 Jul 2023 14:07:20 GMT'
+Information
+2023-07-18 14:07:23.850
+SYNCMAP CREATED: 2023-07-18 14:07:23.832525
+Information
+2023-07-18 14:07:24.094
+Result: Failure Exception: FileNotFoundError: [Errno 2] No such file or directory: 'syncmap.json' Stack: File "/azure-functions-host/workers/python/3.9/LINUX/X64/azure_functions_worker/dispatcher.py", line 479, in _handle__invocation_request call_result = await self._loop.run_in_executor( File "/usr/local/lib/python3.9/concurrent/futures/thread.py", line 58, in run result = self.fn(*self.args, **self.kwargs) File "/azure-functions-host/workers/python/3.9/LINUX/X64/azure_functions_worker/dispatcher.py", line 752, in _run_sync_func return ExtensionManager.get_sync_invocation_wrapper(context, File "/azure-functions-host/workers/python/3.9/LINUX/X64/azure_functions_worker/extension.py", line 215, in _raw_invocation_wrapper result = function(**args) File "/home/site/wwwroot/AeneasFunction/__init__.py", line 67, in main with open ("syncmap.json", 'r') as file:
+Error
+2023-07-18 14:07:24.094
+Executed 'Functions.AeneasFunction' (Failed, Id=83b6528f-4610-46ed-a3f3-60ad34386a87, Duration=3719ms)
+Error
+2023-07-18 14:07:24.107
+Result: Failure Exception: FileNotFoundError: [Errno 2] No such file or directory: 'syncmap.json' Stack: File "/azure-functions-host/workers/python/3.9/LINUX/X64/azure_functions_worker/dispatcher.py", line 479, in _handle__invocation_request call_result = await self._loop.run_in_executor( File "/usr/local/lib/python3.9/concurrent/futures/thread.py", line 58, in run result = self.fn(*self.args, **self.kwargs) File "/azure-functions-host/workers/python/3.9/LINUX/X64/azure_functions_worker/dispatcher.py", line 752, in _run_sync_func return ExtensionManager.get_sync_invocation_wrapper(context, File "/azure-functions-host/workers/python/3.9/LINUX/X64/azure_functions_worker/extension.py", line 215, in _raw_invocation_wrapper result = function(**args) File "/home/site/wwwroot/AeneasFunction/__init__.py", line 67, in main with open ("syncmap.json", 'r') as file:
+
+4. 
+
+2023-07-18 14:07:20.456
+Executing 'Functions.AeneasFunction' (Reason='New blob detected(LogsAndContainerScan): decompressedfilecontainer/989d16c6-9484-4734-a1d5-adac7d14cef2.mp3', Id=02cdab7e-9447-419f-808f-bcae9c015c99)
+Information
+2023-07-18 14:07:20.458
+Trigger Details: MessageId: 18f8534b-a213-4b86-b670-0e84a56010b0, DequeueCount: 1, InsertedOn: 2023-07-18T14:07:20.000+00:00, BlobCreated: 2023-07-18T14:07:18.000+00:00, BlobLastModified: 2023-07-18T14:07:18.000+00:00
+Information
+2023-07-18 14:07:20.502
+FUNC START: 2023-07-18 14:07:20.494243 Python blob trigger function processed blob Name: decompressedfilecontainer/989d16c6-9484-4734-a1d5-adac7d14cef2.mp3 Blob Size: None bytes
+Information
+2023-07-18 14:07:20.589
+Request URL: 'https://aeneasstorage.blob.core.windows.net/textfilecontainer/p001.xhtml' Request method: 'GET' Request headers: 'x-ms-range': 'REDACTED' 'x-ms-version': 'REDACTED' 'Accept': 'application/xml' 'User-Agent': 'azsdk-python-storage-blob/12.17.0 Python/3.9.17 (Linux-5.10.177.1-1.cm1-x86_64-with-glibc2.31)' 'x-ms-date': 'REDACTED' 'x-ms-client-request-id': '691e3690-2574-11ee-a3a6-462c726917cc' 'Authorization': 'REDACTED' No body was attached to the request
+Information
+2023-07-18 14:07:20.682
+Response status: 206 Response headers: 'Content-Length': '1584' 'Content-Type': 'application/xhtml+xml' 'Content-Range': 'REDACTED' 'Last-Modified': 'Fri, 16 Dec 2022 20:08:51 GMT' 'Accept-Ranges': 'REDACTED' 'ETag': '"0x8DADFA159AA2138"' 'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0' 'x-ms-request-id': '008e33d8-101e-0047-2f81-b948fd000000' 'x-ms-client-request-id': '691e3690-2574-11ee-a3a6-462c726917cc' 'x-ms-version': 'REDACTED' 'x-ms-creation-time': 'REDACTED' 'x-ms-blob-content-md5': 'REDACTED' 'x-ms-lease-status': 'REDACTED' 'x-ms-lease-state': 'REDACTED' 'x-ms-blob-type': 'REDACTED' 'x-ms-server-encrypted': 'REDACTED' 'Date': 'Tue, 18 Jul 2023 14:07:20 GMT'
+Information
+2023-07-18 14:07:23.895
+SYNCMAP CREATED: 2023-07-18 14:07:23.887350
+Information
+2023-07-18 14:07:23.898
+UPLOAD COMPLETED: 2023-07-18 14:07:23.887621
+Information
+2023-07-18 14:07:23.964
+Executed 'Functions.AeneasFunction' (Succeeded, Id=02cdab7e-9447-419f-808f-bcae9c015c99, Duration=3571ms)
+Information
+
+5.
+
+2023-07-18 14:07:23.727
+Executing 'Functions.AeneasFunction' (Reason='New blob detected(LogsAndContainerScan): decompressedfilecontainer/e949cd5d-7f42-452a-88de-047bea98ed84.mp3', Id=36b51066-a4a3-4b3b-91c1-7ae0aafb3d2f)
+Information
+2023-07-18 14:07:23.728
+Trigger Details: MessageId: ec94d78b-a22d-4e4a-ada1-8dae531db100, DequeueCount: 1, InsertedOn: 2023-07-18T14:07:20.000+00:00, BlobCreated: 2023-07-18T14:07:18.000+00:00, BlobLastModified: 2023-07-18T14:07:18.000+00:00
+Information
+2023-07-18 14:07:23.792
+FUNC START: 2023-07-18 14:07:23.786612 Python blob trigger function processed blob Name: decompressedfilecontainer/e949cd5d-7f42-452a-88de-047bea98ed84.mp3 Blob Size: None bytes
+Information
+2023-07-18 14:07:23.821
+Request URL: 'https://aeneasstorage.blob.core.windows.net/textfilecontainer/p001.xhtml' Request method: 'GET' Request headers: 'x-ms-range': 'REDACTED' 'x-ms-version': 'REDACTED' 'Accept': 'application/xml' 'User-Agent': 'azsdk-python-storage-blob/12.17.0 Python/3.9.17 (Linux-5.10.177.1-1.cm1-x86_64-with-glibc2.31)' 'x-ms-date': 'REDACTED' 'x-ms-client-request-id': '6b16f4e6-2574-11ee-b775-462c726917cc' 'Authorization': 'REDACTED' No body was attached to the request
+Information
+2023-07-18 14:07:23.958
+Response status: 206 Response headers: 'Content-Length': '1584' 'Content-Type': 'application/xhtml+xml' 'Content-Range': 'REDACTED' 'Last-Modified': 'Fri, 16 Dec 2022 20:08:51 GMT' 'Accept-Ranges': 'REDACTED' 'ETag': '"0x8DADFA159AA2138"' 'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0' 'x-ms-request-id': '8d833ed8-701e-000c-1681-b9b4ae000000' 'x-ms-client-request-id': '6b16f4e6-2574-11ee-b775-462c726917cc' 'x-ms-version': 'REDACTED' 'x-ms-creation-time': 'REDACTED' 'x-ms-blob-content-md5': 'REDACTED' 'x-ms-lease-status': 'REDACTED' 'x-ms-lease-state': 'REDACTED' 'x-ms-blob-type': 'REDACTED' 'x-ms-server-encrypted': 'REDACTED' 'Date': 'Tue, 18 Jul 2023 14:07:23 GMT'
+Information
+2023-07-18 14:07:26.315
+SYNCMAP CREATED: 2023-07-18 14:07:26.268206
+Information
+2023-07-18 14:07:26.324
+UPLOAD COMPLETED: 2023-07-18 14:07:26.310650
+Information
+2023-07-18 14:07:26.386
+Executed 'Functions.AeneasFunction' (Succeeded, Id=36b51066-a4a3-4b3b-91c1-7ae0aafb3d2f, Duration=2691ms)
+Information
+
+6. 
+
+2023-07-18 14:07:23.744
+Executing 'Functions.AeneasFunction' (Reason='New blob detected(LogsAndContainerScan): decompressedfilecontainer/ebc68361-257b-4ea0-8f39-bfae574dbd73.mp3', Id=23d2f346-9cb3-4250-9f1d-b6cb419d21ea)
+Information
+2023-07-18 14:07:23.745
+Trigger Details: MessageId: 15154ff6-b87f-41db-93cd-6238923548b1, DequeueCount: 1, InsertedOn: 2023-07-18T14:07:20.000+00:00, BlobCreated: 2023-07-18T14:07:19.000+00:00, BlobLastModified: 2023-07-18T14:07:19.000+00:00
+Information
+2023-07-18 14:07:23.801
+FUNC START: 2023-07-18 14:07:23.788458 Python blob trigger function processed blob Name: decompressedfilecontainer/ebc68361-257b-4ea0-8f39-bfae574dbd73.mp3 Blob Size: None bytes
+Information
+2023-07-18 14:07:23.853
+Request URL: 'https://aeneasstorage.blob.core.windows.net/textfilecontainer/p001.xhtml' Request method: 'GET' Request headers: 'x-ms-range': 'REDACTED' 'x-ms-version': 'REDACTED' 'Accept': 'application/xml' 'User-Agent': 'azsdk-python-storage-blob/12.17.0 Python/3.9.17 (Linux-5.10.177.1-1.cm1-x86_64-with-glibc2.31)' 'x-ms-date': 'REDACTED' 'x-ms-client-request-id': '6b1987f6-2574-11ee-918a-462c726917cc' 'Authorization': 'REDACTED' No body was attached to the request
+Information
+2023-07-18 14:07:23.985
+Response status: 206 Response headers: 'Content-Length': '1584' 'Content-Type': 'application/xhtml+xml' 'Content-Range': 'REDACTED' 'Last-Modified': 'Fri, 16 Dec 2022 20:08:51 GMT' 'Accept-Ranges': 'REDACTED' 'ETag': '"0x8DADFA159AA2138"' 'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0' 'x-ms-request-id': '4c6c3b18-401e-0007-3681-b94fc5000000' 'x-ms-client-request-id': '6b1987f6-2574-11ee-918a-462c726917cc' 'x-ms-version': 'REDACTED' 'x-ms-creation-time': 'REDACTED' 'x-ms-blob-content-md5': 'REDACTED' 'x-ms-lease-status': 'REDACTED' 'x-ms-lease-state': 'REDACTED' 'x-ms-blob-type': 'REDACTED' 'x-ms-server-encrypted': 'REDACTED' 'Date': 'Tue, 18 Jul 2023 14:07:23 GMT'
+Information
+2023-07-18 14:07:26.438
+SYNCMAP CREATED: 2023-07-18 14:07:26.407125
+Information
+2023-07-18 14:07:26.441
+UPLOAD COMPLETED: 2023-07-18 14:07:26.407511
+Information
+2023-07-18 14:07:26.501
+Executed 'Functions.AeneasFunction' (Succeeded, Id=23d2f346-9cb3-4250-9f1d-b6cb419d21ea, Duration=2801ms)
+Information
+
+7.
+
+2023-07-18 14:07:24.388
+Executing 'Functions.AeneasFunction' (Reason='New blob detected(LogsAndContainerScan): decompressedfilecontainer/8ce8c696-0998-4653-abe6-34bb5ac36723.mp3', Id=afc8dc45-d1bb-472f-b04e-66849b7d7db7)
+Information
+2023-07-18 14:07:24.391
+Trigger Details: MessageId: 3cbbafb1-d28e-4408-9fcf-3aa69fe4c454, DequeueCount: 2, InsertedOn: 2023-07-18T14:07:20.000+00:00, BlobCreated: 2023-07-18T14:07:18.000+00:00, BlobLastModified: 2023-07-18T14:07:18.000+00:00
+Information
+2023-07-18 14:07:24.443
+FUNC START: 2023-07-18 14:07:24.436877 Python blob trigger function processed blob Name: decompressedfilecontainer/8ce8c696-0998-4653-abe6-34bb5ac36723.mp3 Blob Size: None bytes
+Information
+2023-07-18 14:07:24.466
+Request URL: 'https://aeneasstorage.blob.core.windows.net/textfilecontainer/p001.xhtml' Request method: 'GET' Request headers: 'x-ms-range': 'REDACTED' 'x-ms-version': 'REDACTED' 'Accept': 'application/xml' 'User-Agent': 'azsdk-python-storage-blob/12.17.0 Python/3.9.17 (Linux-5.10.177.1-1.cm1-x86_64-with-glibc2.31)' 'x-ms-date': 'REDACTED' 'x-ms-client-request-id': '6b78755e-2574-11ee-8dc3-462c726917cc' 'Authorization': 'REDACTED' No body was attached to the request
+Information
+2023-07-18 14:07:24.545
+Response status: 206 Response headers: 'Content-Length': '1584' 'Content-Type': 'application/xhtml+xml' 'Content-Range': 'REDACTED' 'Last-Modified': 'Fri, 16 Dec 2022 20:08:51 GMT' 'Accept-Ranges': 'REDACTED' 'ETag': '"0x8DADFA159AA2138"' 'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0' 'x-ms-request-id': 'f48cc20b-601e-003f-5b81-b9eb05000000' 'x-ms-client-request-id': '6b78755e-2574-11ee-8dc3-462c726917cc' 'x-ms-version': 'REDACTED' 'x-ms-creation-time': 'REDACTED' 'x-ms-blob-content-md5': 'REDACTED' 'x-ms-lease-status': 'REDACTED' 'x-ms-lease-state': 'REDACTED' 'x-ms-blob-type': 'REDACTED' 'x-ms-server-encrypted': 'REDACTED' 'Date': 'Tue, 18 Jul 2023 14:07:24 GMT'
+Information
+2023-07-18 14:07:26.474
+SYNCMAP CREATED: 2023-07-18 14:07:26.471457
+Information
+2023-07-18 14:07:26.477
+UPLOAD COMPLETED: 2023-07-18 14:07:26.471985
+Information
+2023-07-18 14:07:26.532
+Executed 'Functions.AeneasFunction' (Succeeded, Id=afc8dc45-d1bb-472f-b04e-66849b7d7db7, Duration=2188ms)
+Information
+
+8.
+
+2023-07-18 14:07:30.689
+Executing 'Functions.AeneasFunction' (Reason='New blob detected(LogsAndContainerScan): decompressedfilecontainer/04c6ecab-fa86-4031-8b8b-3337af821311.mp3', Id=4d409f24-5427-4650-800e-a09073ed8e3d)
+Information
+2023-07-18 14:07:30.692
+Trigger Details: MessageId: ab350da3-d21a-4ffa-b40f-5873969eb722, DequeueCount: 1, InsertedOn: 2023-07-18T14:07:30.000+00:00, BlobCreated: 2023-07-18T14:07:22.000+00:00, BlobLastModified: 2023-07-18T14:07:22.000+00:00
+Information
+2023-07-18 14:07:30.850
+FUNC START: 2023-07-18 14:07:30.774685 Python blob trigger function processed blob Name: decompressedfilecontainer/04c6ecab-fa86-4031-8b8b-3337af821311.mp3 Blob Size: None bytes
+Information
+2023-07-18 14:07:30.931
+Request URL: 'https://aeneasstorage.blob.core.windows.net/textfilecontainer/p001.xhtml' Request method: 'GET' Request headers: 'x-ms-range': 'REDACTED' 'x-ms-version': 'REDACTED' 'Accept': 'application/xml' 'User-Agent': 'azsdk-python-storage-blob/12.17.0 Python/3.9.17 (Linux-5.10.177.1-1.cm1-x86_64-with-glibc2.31)' 'x-ms-date': 'REDACTED' 'x-ms-client-request-id': '6f42e228-2574-11ee-a3a6-462c726917cc' 'Authorization': 'REDACTED' No body was attached to the request
+Information
+2023-07-18 14:07:31.596
+Response status: 206 Response headers: 'Content-Length': '1584' 'Content-Type': 'application/xhtml+xml' 'Content-Range': 'REDACTED' 'Last-Modified': 'Fri, 16 Dec 2022 20:08:51 GMT' 'Accept-Ranges': 'REDACTED' 'ETag': '"0x8DADFA159AA2138"' 'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0' 'x-ms-request-id': 'c44cadae-c01e-0019-0581-b9a31d000000' 'x-ms-client-request-id': '6f42e228-2574-11ee-a3a6-462c726917cc' 'x-ms-version': 'REDACTED' 'x-ms-creation-time': 'REDACTED' 'x-ms-blob-content-md5': 'REDACTED' 'x-ms-lease-status': 'REDACTED' 'x-ms-lease-state': 'REDACTED' 'x-ms-blob-type': 'REDACTED' 'x-ms-server-encrypted': 'REDACTED' 'Date': 'Tue, 18 Jul 2023 14:07:31 GMT'
+Information
+2023-07-18 14:07:34.573
+SYNCMAP CREATED: 2023-07-18 14:07:34.567234
+Information
+2023-07-18 14:07:34.585
+UPLOAD COMPLETED: 2023-07-18 14:07:34.568197
+Information
+2023-07-18 14:07:34.667
+Executed 'Functions.AeneasFunction' (Succeeded, Id=4d409f24-5427-4650-800e-a09073ed8e3d, Duration=4030ms)
+Information
+
+9.
+
+2023-07-18 14:07:30.932
+Executing 'Functions.AeneasFunction' (Reason='New blob detected(LogsAndContainerScan): decompressedfilecontainer/1c1cd6af-ce43-4c9d-b8e0-ceceb5991d9c.mp3', Id=571dd868-5c2e-4801-91bc-153cf2b98702)
+Information
+2023-07-18 14:07:30.948
+Trigger Details: MessageId: dca6ab84-c767-43d6-b55e-183a8b1590e1, DequeueCount: 1, InsertedOn: 2023-07-18T14:07:30.000+00:00, BlobCreated: 2023-07-18T14:07:21.000+00:00, BlobLastModified: 2023-07-18T14:07:21.000+00:00
+Information
+2023-07-18 14:07:30.996
+FUNC START: 2023-07-18 14:07:30.979467 Python blob trigger function processed blob Name: decompressedfilecontainer/1c1cd6af-ce43-4c9d-b8e0-ceceb5991d9c.mp3 Blob Size: None bytes
+Information
+2023-07-18 14:07:31.135
+Request URL: 'https://aeneasstorage.blob.core.windows.net/textfilecontainer/p001.xhtml' Request method: 'GET' Request headers: 'x-ms-range': 'REDACTED' 'x-ms-version': 'REDACTED' 'Accept': 'application/xml' 'User-Agent': 'azsdk-python-storage-blob/12.17.0 Python/3.9.17 (Linux-5.10.177.1-1.cm1-x86_64-with-glibc2.31)' 'x-ms-date': 'REDACTED' 'x-ms-client-request-id': '6f5fa87c-2574-11ee-918a-462c726917cc' 'Authorization': 'REDACTED' No body was attached to the request
+Information
+2023-07-18 14:07:31.673
+Response status: 206 Response headers: 'Content-Length': '1584' 'Content-Type': 'application/xhtml+xml' 'Content-Range': 'REDACTED' 'Last-Modified': 'Fri, 16 Dec 2022 20:08:51 GMT' 'Accept-Ranges': 'REDACTED' 'ETag': '"0x8DADFA159AA2138"' 'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0' 'x-ms-request-id': '6e319322-701e-0041-5f81-b97b42000000' 'x-ms-client-request-id': '6f5fa87c-2574-11ee-918a-462c726917cc' 'x-ms-version': 'REDACTED' 'x-ms-creation-time': 'REDACTED' 'x-ms-blob-content-md5': 'REDACTED' 'x-ms-lease-status': 'REDACTED' 'x-ms-lease-state': 'REDACTED' 'x-ms-blob-type': 'REDACTED' 'x-ms-server-encrypted': 'REDACTED' 'Date': 'Tue, 18 Jul 2023 14:07:30 GMT'
+Information
+2023-07-18 14:07:34.719
+SYNCMAP CREATED: 2023-07-18 14:07:34.711837
+Information
+2023-07-18 14:07:34.779
+UPLOAD COMPLETED: 2023-07-18 14:07:34.712349
+Information
+2023-07-18 14:07:34.845
+Executed 'Functions.AeneasFunction' (Succeeded, Id=571dd868-5c2e-4801-91bc-153cf2b98702, Duration=4094ms)
+Information
+
+10.
+
+2023-07-18 14:07:31.208
+Executing 'Functions.AeneasFunction' (Reason='New blob detected(LogsAndContainerScan): decompressedfilecontainer/57ab2e2e-6ff0-435a-9330-6957867e007d.mp3', Id=acf2ec58-6b18-44b6-a8df-36766d1f6929)
+Information
+2023-07-18 14:07:31.269
+Trigger Details: MessageId: 33d0e5f7-dfca-4a6d-a1ba-19e2adc48a88, DequeueCount: 1, InsertedOn: 2023-07-18T14:07:30.000+00:00, BlobCreated: 2023-07-18T14:07:20.000+00:00, BlobLastModified: 2023-07-18T14:07:20.000+00:00
+Information
+2023-07-18 14:07:31.460
+FUNC START: 2023-07-18 14:07:31.340122 Python blob trigger function processed blob Name: decompressedfilecontainer/57ab2e2e-6ff0-435a-9330-6957867e007d.mp3 Blob Size: None bytes
+Information
+2023-07-18 14:07:31.546
+Request URL: 'https://aeneasstorage.blob.core.windows.net/textfilecontainer/p001.xhtml' Request method: 'GET' Request headers: 'x-ms-range': 'REDACTED' 'x-ms-version': 'REDACTED' 'Accept': 'application/xml' 'User-Agent': 'azsdk-python-storage-blob/12.17.0 Python/3.9.17 (Linux-5.10.177.1-1.cm1-x86_64-with-glibc2.31)' 'x-ms-date': 'REDACTED' 'x-ms-client-request-id': '6fa7bf40-2574-11ee-b775-462c726917cc' 'Authorization': 'REDACTED' No body was attached to the request
+Information
+2023-07-18 14:07:31.681
+Response status: 206 Response headers: 'Content-Length': '1584' 'Content-Type': 'application/xhtml+xml' 'Content-Range': 'REDACTED' 'Last-Modified': 'Fri, 16 Dec 2022 20:08:51 GMT' 'Accept-Ranges': 'REDACTED' 'ETag': '"0x8DADFA159AA2138"' 'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0' 'x-ms-request-id': '99949f57-001e-0029-6f81-b91dd2000000' 'x-ms-client-request-id': '6fa7bf40-2574-11ee-b775-462c726917cc' 'x-ms-version': 'REDACTED' 'x-ms-creation-time': 'REDACTED' 'x-ms-blob-content-md5': 'REDACTED' 'x-ms-lease-status': 'REDACTED' 'x-ms-lease-state': 'REDACTED' 'x-ms-blob-type': 'REDACTED' 'x-ms-server-encrypted': 'REDACTED' 'Date': 'Tue, 18 Jul 2023 14:07:30 GMT'
+Information
+2023-07-18 14:07:34.876
+SYNCMAP CREATED: 2023-07-18 14:07:34.872584
+Information
+2023-07-18 14:07:34.878
+UPLOAD COMPLETED: 2023-07-18 14:07:34.872997
+Information
+2023-07-18 14:07:34.926
+Executed 'Functions.AeneasFunction' (Succeeded, Id=acf2ec58-6b18-44b6-a8df-36766d1f6929, Duration=4019ms)
+Information
+
+11.
+
+2023-07-18 14:07:31.417
+Executing 'Functions.AeneasFunction' (Reason='New blob detected(LogsAndContainerScan): decompressedfilecontainer/874636a2-cd65-45c8-a67b-3ce3b61880df.mp3', Id=2b19685f-f4e4-470f-8b28-cf7f0791fb1d)
+Information
+2023-07-18 14:07:31.418
+Trigger Details: MessageId: dd2478ca-95bf-4a28-9da9-e90c0ad0dbc3, DequeueCount: 1, InsertedOn: 2023-07-18T14:07:31.000+00:00, BlobCreated: 2023-07-18T14:07:23.000+00:00, BlobLastModified: 2023-07-18T14:07:23.000+00:00
+Information
+2023-07-18 14:07:31.560
+FUNC START: 2023-07-18 14:07:31.534605 Python blob trigger function processed blob Name: decompressedfilecontainer/874636a2-cd65-45c8-a67b-3ce3b61880df.mp3 Blob Size: None bytes
+Information
+2023-07-18 14:07:31.579
+Request URL: 'https://aeneasstorage.blob.core.windows.net/textfilecontainer/p001.xhtml' Request method: 'GET' Request headers: 'x-ms-range': 'REDACTED' 'x-ms-version': 'REDACTED' 'Accept': 'application/xml' 'User-Agent': 'azsdk-python-storage-blob/12.17.0 Python/3.9.17 (Linux-5.10.177.1-1.cm1-x86_64-with-glibc2.31)' 'x-ms-date': 'REDACTED' 'x-ms-client-request-id': '6fb6328c-2574-11ee-8dc3-462c726917cc' 'Authorization': 'REDACTED' No body was attached to the request
+Information
+2023-07-18 14:07:31.778
+Response status: 206 Response headers: 'Content-Length': '1584' 'Content-Type': 'application/xhtml+xml' 'Content-Range': 'REDACTED' 'Last-Modified': 'Fri, 16 Dec 2022 20:08:51 GMT' 'Accept-Ranges': 'REDACTED' 'ETag': '"0x8DADFA159AA2138"' 'Server': 'Windows-Azure-Blob/1.0 Microsoft-HTTPAPI/2.0' 'x-ms-request-id': 'bc849ec2-c01e-006b-1f81-b9a452000000' 'x-ms-client-request-id': '6fb6328c-2574-11ee-8dc3-462c726917cc' 'x-ms-version': 'REDACTED' 'x-ms-creation-time': 'REDACTED' 'x-ms-blob-content-md5': 'REDACTED' 'x-ms-lease-status': 'REDACTED' 'x-ms-lease-state': 'REDACTED' 'x-ms-blob-type': 'REDACTED' 'x-ms-server-encrypted': 'REDACTED' 'Date': 'Tue, 18 Jul 2023 14:07:31 GMT'
+Information
+2023-07-18 14:07:34.804
+SYNCMAP CREATED: 2023-07-18 14:07:34.792754
+Information
+2023-07-18 14:07:34.831
+UPLOAD COMPLETED: 2023-07-18 14:07:34.793273
+Information
+2023-07-18 14:07:34.898
+Executed 'Functions.AeneasFunction' (Succeeded, Id=2b19685f-f4e4-470f-8b28-cf7f0791fb1d, Duration=3704ms)
+Information
+
+
+PLAN 1, FREQ 3 sek, 500kb file
+
+
