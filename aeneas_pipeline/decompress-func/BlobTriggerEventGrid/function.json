@@ -1,0 +1,20 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "myblob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "edgeuploadcontainer/{name}.zip",
+      "source": "EventGrid",
+      "connection": "aeneasstorage_STORAGE"
+    },
+    {
+      "name": "outputblob",
+      "type": "blob",
+      "path": "decompressedfilecontainer/{name}.mp3",
+      "connection": "AzureWebJobsStorage",
+      "direction": "out"
+    }
+  ]
+}

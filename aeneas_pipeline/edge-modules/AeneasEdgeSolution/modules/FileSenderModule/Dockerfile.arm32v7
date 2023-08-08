@@ -1,0 +1,10 @@
+FROM arm32v7/python:3.7-slim-buster
+
+WORKDIR /app
+
+COPY requirements.txt p000.mp3 p001.mp3 p001.xhtml p002.mp3 p003.mp3 ./
+RUN pip install --index-url=https://www.piwheels.org/simple --no-cache-dir -r requirements.txt
+
+COPY . .
+
+CMD [ "python3", "-u", "./main.py" ]
